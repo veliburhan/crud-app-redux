@@ -1,0 +1,286 @@
+{
+  "students": [
+    {
+      "id": "1668283360478",
+      "firstName": "MERYEM",
+      "lastName": "ÖZÜLKÜ",
+      "gender": "Kız",
+      "number": "18",
+      "school": "React-Redux İlköğretim Okulu",
+      "class": "5/A",
+      "hobbys": [
+        "Satranç Oynamak",
+        "Seyahat Etmek",
+        "Tenis Oynamak",
+        "Yüzmek"
+      ],
+      "booksread": [
+        "Sefiller-Victor Hugo",
+        "Troya Masalı-Azra Erhat",
+        "Son Adanın Çocukları-Zülfi Livaneli"
+      ]
+    },
+    {
+      "id": "1668283939531",
+      "firstName": "MEHMET",
+      "lastName": "SARGIN",
+      "gender": "Erkek",
+      "number": "19",
+      "school": "React-Redux İlköğretim Okulu",
+      "class": "4/A",
+      "hobbys": [
+        "Seyahat Etmek",
+        "Resim Yapmak",
+        "Yüzmek"
+      ],
+      "booksread": [
+        "Çizgili Pijamalı Çocuk-John Boyne",
+        "Beyaz Diş-Jack London",
+        "80 Günde Devri Alem-Jules Verne",
+        "Pal Sokağı Çocukları-Ferenc Molnar"
+      ]
+    },
+    {
+      "id": "1668283988641",
+      "firstName": "HAYRİYE",
+      "lastName": "CİVELEK",
+      "gender": "Kız",
+      "number": "20",
+      "school": "React-Redux İlköğretim Okulu",
+      "class": "5/A",
+      "hobbys": [
+        "Fotoğrafçılık",
+        "Resim Yapmak",
+        "Bisiklet Kullanmak",
+        "Satranç Oynamak"
+      ],
+      "booksread": [
+        "Çizgili Pijamalı Çocuk-John Boyne",
+        "80 Günde Devri Alem-Jules Verne",
+        "Sefiller-Victor Hugo",
+        "Troya Masalı-Azra Erhat"
+      ]
+    },
+    {
+      "id": "1668284050943",
+      "firstName": "VEYSEL",
+      "lastName": "DEMİREL",
+      "gender": "Erkek",
+      "number": "21",
+      "school": "React-Redux İlköğretim Okulu",
+      "class": "5/B",
+      "hobbys": [
+        "Tenis Oynamak",
+        "Kitap Okumak",
+        "Bisiklet Kullanmak"
+      ],
+      "booksread": [
+        "Çizgili Pijamalı Çocuk-John Boyne",
+        "80 Günde Devri Alem-Jules Verne"
+      ]
+    },
+    {
+      "id": "1668534194369",
+      "firstName": "Ahmet",
+      "lastName": "Zeybek",
+      "gender": "Erkek",
+      "number": "105",
+      "school": "React-Redux İlköğretim Okulu",
+      "class": "5/B",
+      "hobbys": [
+        "Seyahat Etmek",
+        "Bisiklet Kullanmak",
+        "Yüzmek",
+        "Fotoğrafçılık"
+      ],
+      "booksread": [
+        "80 Günde Devri Alem-Jules Verne",
+        "Sefiller-Victor Hugo",
+        "Troya Masalı-Azra Erhat",
+        "Alice Harikalar Diyarında-Lewis Carrol",
+        "Son Adanın Çocukları-Zülfi Livaneli"
+      ]
+    },
+    {
+      "id": "1668534379203",
+      "firstName": "MEHMET",
+      "lastName": "SELVİ",
+      "gender": "Erkek",
+      "number": "107",
+      "school": "React-Redux İlköğretim Okulu",
+      "class": "5/B",
+      "hobbys": [
+        "Satranç Oynamak",
+        "Kitap Okumak",
+        "Tenis Oynamak",
+        "Yüzmek"
+      ],
+      "booksread": [
+        "Çizgili Pijamalı Çocuk-John Boyne",
+        "Alice Harikalar Diyarında-Lewis Carrol",
+        "Beyaz Diş-Jack London",
+        "Pal Sokağı Çocukları-Ferenc Molnar",
+        "Sefiller-Victor Hugo"
+      ]
+    },
+    {
+      "id": "1668534472527",
+      "firstName": "ALİ",
+      "lastName": "YILMAZ",
+      "gender": "Erkek",
+      "number": "106",
+      "school": "React-Redux İlköğretim Okulu",
+      "class": "5/B",
+      "hobbys": [
+        "Kitap Okumak",
+        "Tenis Oynamak",
+        "Bisiklet Kullanmak",
+        "Seyahat Etmek"
+      ],
+      "booksread": [
+        "Çizgili Pijamalı Çocuk-John Boyne",
+        "Alice Harikalar Diyarında-Lewis Carrol",
+        "Son Adanın Çocukları-Zülfi Livaneli"
+      ]
+    },
+    {
+      "id": "1668534539511",
+      "firstName": "GÜLSÜM",
+      "lastName": "MERCAN",
+      "gender": "Kız",
+      "number": "101",
+      "school": "React-Redux İlköğretim Okulu",
+      "class": "4/B",
+      "hobbys": [
+        "Tenis Oynamak",
+        "Bisiklet Kullanmak",
+        "Yüzmek",
+        "Fotoğrafçılık"
+      ],
+      "booksread": [
+        "Alice Harikalar Diyarında-Lewis Carrol",
+        "Pal Sokağı Çocukları-Ferenc Molnar"
+      ]
+    },
+    {
+      "id": "1668534770226",
+      "firstName": "VELI",
+      "lastName": "DAĞDEVIREN",
+      "gender": "Erkek",
+      "number": "108",
+      "school": "REACT-REDUX İLKÖĞRETIM OKULU",
+      "class": "4/A",
+      "hobbys": [
+        "Kitap Okumak",
+        "Resim Yapmak"
+      ],
+      "booksread": [
+        "Çizgili Pijamalı Çocuk-John Boyne",
+        "Pal Sokağı Çocukları-Ferenc Molnar"
+      ]
+    },
+    {
+      "id": "1668534842030",
+      "firstName": "ESRA",
+      "lastName": "YELKENCI",
+      "gender": "Kız",
+      "number": "109",
+      "school": "REACT-REDUX İLKÖĞRETIM OKULU",
+      "class": "4/B",
+      "hobbys": [
+        "Bisiklet Kullanmak",
+        "Yüzmek"
+      ],
+      "booksread": [
+        "Beyaz Diş-Jack London",
+        "Troya Masalı-Azra Erhat"
+      ]
+    },
+    {
+      "id": "1668535793161",
+      "firstName": "S",
+      "lastName": "sever",
+      "gender": "Erkek",
+      "number": "111",
+      "school": "react-redux i̇lköğretim okulu",
+      "class": "4/a",
+      "hobbys": [
+        "Tenis Oynamak",
+        "Bisiklet Kullanmak"
+      ],
+      "booksread": [
+        "Beyaz Diş-Jack London",
+        "Son Adanın Çocukları-Zülfi Livaneli",
+        "Pal Sokağı Çocukları-Ferenc Molnar"
+      ]
+    },
+    {
+      "id": "1668535884627",
+      "firstName": "Halime",
+      "lastName": "aygül",
+      "gender": "Kız",
+      "number": "112",
+      "school": "react-redux i̇lköğretim okulu",
+      "class": "5/a",
+      "hobbys": [
+        "Kitap Okumak",
+        "Resim Yapmak"
+      ],
+      "booksread": [
+        "80 Günde Devri Alem-Jules Verne",
+        "Beyaz Diş-Jack London"
+      ]
+    },
+    {
+      "id": "1668535964948",
+      "firstName": "MELTEM",
+      "lastName": "karaman",
+      "gender": "Kız",
+      "number": "113",
+      "school": "react-redux i̇lköğretim okulu",
+      "class": "5/a",
+      "hobbys": [
+        "Yüzmek",
+        "Bisiklet Kullanmak"
+      ],
+      "booksread": [
+        "Beyaz Diş-Jack London"
+      ]
+    }
+  ],
+  "hobby_list": [
+    "Satranç Oynamak",
+    "Fotoğrafçılık",
+    "Seyahat Etmek",
+    "Kitap Okumak",
+    "Resim Yapmak",
+    "Tenis Oynamak",
+    "Bisiklet Kullanmak",
+    "Yüzmek"
+  ],
+  "books": [
+    "80 Günde Devri Alem-Jules Verne",
+    "Sefiller-Victor Hugo",
+    "Çizgili Pijamalı Çocuk-John Boyne",
+    "Beyaz Diş-Jack London",
+    "Troya Masalı-Azra Erhat",
+    "Alice Harikalar Diyarında-Lewis Carrol",
+    "Son Adanın Çocukları-Zülfi Livaneli",
+    "Pal Sokağı Çocukları-Ferenc Molnar"
+  ],
+  "classlist": [
+    "1/A",
+    "1/B",
+    "2/A",
+    "2/B",
+    "3/A",
+    "3/B",
+    "3/C",
+    "4/A",
+    "4/B",
+    "4/C",
+    "5/A",
+    "5/B",
+    "5/C"
+  ]
+}
