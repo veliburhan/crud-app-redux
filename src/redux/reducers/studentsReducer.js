@@ -1,3 +1,5 @@
+import actionTypes from "../actions/actionTypes"
+
 /* 
 1.initialState oluştur.
 2. reducer fonksiyorunu oluştur.
@@ -14,13 +16,13 @@ const initialState = {
 
 const studentsReducer=(state=initialState,action)=>{
     switch (action.type) {
-        case "FETCH_STUDENT_START":
+        case actionTypes.FETCH_STUDENTS_START:
             return{
                 ...state,
                 start:true
             }
             
-        case "FETCH_STUDENT_SUCCESS":
+        case actionTypes.FETCH_STUDENTS_SUCCESS:
             return{
                 ...state,
                 fail:false,
@@ -28,18 +30,26 @@ const studentsReducer=(state=initialState,action)=>{
                 success:true,
                 students:action.payload
             }
-        case "FETCH_STUDENT_FAIL":
+        case actionTypes.FETCH_STUDENTS_FAIL:
             return{
                 ...state,
                 start:false,
                 fail:true,
                 error:action.payload
             } 
-        case "ADD_STUDENT":
+
+        case actionTypes.ADD_STUDENT:
             return{
                 ...state,
                 students:[...state.students,action.payload]
-            }            
+            }        
+            
+        case actionTypes.DELETE_STUDENT:
+            const filteredStudents=state.students.filter(item => item.id !== action.payload)    
+            return{
+                ...state,
+                students:filteredStudents
+            }
         default:
             return state;
     }

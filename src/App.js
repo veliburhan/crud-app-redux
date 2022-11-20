@@ -10,6 +10,7 @@ import Error from "./pages/Error";
 import Loading from "./components/Loading";
 import AddStudent from "./pages/AddStudent";
 import SelectedStudent from "./pages/SelectedStudent";
+import actionTypes from "./redux/actions/actionTypes";
 
 
 function App() {
@@ -17,15 +18,15 @@ function App() {
   const studentsState=useSelector(state=>state.studentsState)
 
   useEffect(()=>{
-    dispatch({type:"FETCH_STUDENT_START"})
+    dispatch({type:actionTypes.FETCH_STUDENTS_START})
     axios.get("http://localhost:3005/students")
     .then(response=>{
       setTimeout(()=>{
-        dispatch({type:"FETCH_STUDENT_SUCCESS",payload:response.data})
+        dispatch({type:actionTypes.FETCH_STUDENTS_SUCCESS,payload:response.data})
       },500);      
     })
     .catch(error=>{
-      dispatch({type:"FETCH_STUDENT_FAIL", payload:"server hatası"})
+      dispatch({type:actionTypes.FETCH_STUDENTS_FAIL, payload:"server hatası"})
     })
   },[])
 
@@ -46,7 +47,7 @@ if(studentsState.fail === true){
       <Route path="/" element={<Home />}/>
       <Route path="/add-student" element={<AddStudent/>} />
       <Route path="/error" element={<Error/>}/>
-      <Route path="/selectedstudent" element={<SelectedStudent/>}/>
+      <Route path="/selectedstudent/:studentId" element={<SelectedStudent/>}/>
       </Routes>
     </BrowserRouter>
   );

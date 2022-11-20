@@ -4,6 +4,7 @@ import { useSelector, useDispatch } from "react-redux";
 import "../assets/css/Navbar-style.css";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import actionTypes from "../redux/actions/actionTypes";
 
 const AddStudent = () => {
 
@@ -23,7 +24,10 @@ const AddStudent = () => {
 
     
     
-    
+    const editText=(text)=> {
+    return text[0].toUpperCase() + text.substring(1).toLowerCase() 
+    }
+               
 
 
     const hundleSubmit = (event) => {
@@ -43,19 +47,19 @@ const AddStudent = () => {
 
         const newStudent = {
             id: String(new Date().getTime()),
-            firstName: firstName[0].toUpperCase() + firstName.substring(1),
-            lastName: lastName.toLowerCase(),
-            gender: gender,
+            firstName:editText(firstName),
+            lastName: editText(lastName),
+            gender: editText(gender),
             number: number,
-            school: school.toLowerCase(),
-            class: stdClass.toLowerCase(),
+            school: school,
+            class: stdClass.toUpperCase(),
             hobbys: hobbys,
             booksread: booksRead
         }
 
         axios.post("http://localhost:3005/students", newStudent)
             .then((response) => {
-                dispatch({ type: "ADD_STUDENT", payload: newStudent })
+                dispatch({ type:actionTypes.ADD_STUDENT, payload: newStudent })
                 navigate("/")
             })
             .catch((error) => { })
@@ -85,7 +89,8 @@ const AddStudent = () => {
 
     return (
         <div>
-            <Header />
+            <div className="header"><Header /></div>
+            <div className="liste">
             <div className="container d-flex justify-content-center my-5">
                 <form onSubmit={hundleSubmit} className="w-75">
                     <div className="mb-3 mt-2">
@@ -298,6 +303,7 @@ const AddStudent = () => {
 
                 </form>
             </div >
+            </div>
 
         </div >
     )
