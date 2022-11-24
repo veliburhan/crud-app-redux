@@ -99,6 +99,211 @@
         "Beyaz Diş-Jack London",
         "Troya Masalı-Azra Erhat"
       ]
+    },
+    {
+      "id": "1669014120745",
+      "firstName": "Zehra",
+      "lastName": "Özbek",
+      "gender": "Kız",
+      "number": "1001",
+      "school": "React-Redux İlköğretim Okulu",
+      "class": "4/A",
+      "hobbys": [
+        "Fotoğrafçılık",
+        "Resim Yapmak",
+        "Yüzmek",
+        "Bisiklet Kullanmak",
+        "Seyahat Etmek"
+      ],
+      "booksread": [
+        "Çizgili Pijamalı Çocuk-John Boyne",
+        "Sefiller-Victor Hugo",
+        "Son Adanın Çocukları-Zülfi Livaneli",
+        "Alice Harikalar Diyarında-Lewis Carrol"
+      ]
+    },
+    {
+      "id": "1669014175699",
+      "firstName": "Aysel",
+      "lastName": "Temelli",
+      "gender": "Kız",
+      "number": "1002",
+      "school": "React-Redux İlköğretim Okulu",
+      "class": "4/A",
+      "hobbys": [
+        "Yüzmek",
+        "Tenis Oynamak",
+        "Resim Yapmak"
+      ],
+      "booksread": [
+        "Beyaz Diş-Jack London",
+        "Çizgili Pijamalı Çocuk-John Boyne",
+        "Troya Masalı-Azra Erhat"
+      ]
+    },
+    {
+      "id": "1669014307151",
+      "firstName": "Alev",
+      "lastName": "Cingöz",
+      "gender": "Kız",
+      "number": "1003",
+      "school": "React-Redux İlköğretim Okulu",
+      "class": "5/A",
+      "hobbys": [
+        "Tenis Oynamak",
+        "Seyahat Etmek",
+        "Fotoğrafçılık"
+      ],
+      "booksread": [
+        "80 Günde Devri Alem-Jules Verne"
+      ]
+    },
+    {
+      "id": "1669021827403",
+      "firstName": "Zekeriya",
+      "lastName": "Duman",
+      "gender": "Erkek",
+      "number": "1004",
+      "school": "React-Redux İlköğretim Okulu",
+      "class": "4/B",
+      "hobbys": [
+        "Kitap Okumak",
+        "Resim Yapmak"
+      ],
+      "booksread": [
+        "Beyaz Diş-Jack London"
+      ]
+    },
+    {
+      "id": "1669232502035",
+      "firstName": "Orhan",
+      "lastName": "Ayaz",
+      "gender": "Erkek",
+      "number": "1009",
+      "school": "React-Redux İlköğretim Okulu",
+      "class": "2/B",
+      "hobbys": [
+        "Tenis Oynamak",
+        "Bisiklet Kullanmak"
+      ],
+      "booksread": [
+        "Alice Harikalar Diyarında-Lewis Carrol",
+        "Son Adanın Çocukları-Zülfi Livaneli"
+      ]
+    },
+    {
+      "id": "1669272052674",
+      "firstName": "Hakan",
+      "lastName": "Çubukçu",
+      "gender": "Erkek",
+      "number": "1012",
+      "school": "React-Redux İlköğretim Okulu",
+      "class": "4/C",
+      "hobbys": [
+        "Satranç Oynamak",
+        "Fotoğrafçılık",
+        "Seyahat Etmek",
+        "Kitap Okumak"
+      ],
+      "booksread": []
+    },
+    {
+      "id": "1669272544571",
+      "firstName": "Türkan",
+      "lastName": "Aygün",
+      "gender": "Kız",
+      "number": "1016",
+      "school": "React-Redux İlköğretim Okulu",
+      "class": "4/B",
+      "hobbys": [
+        "Satranç Oynamak",
+        "Fotoğrafçılık",
+        "Seyahat Etmek",
+        "Kitap Okumak",
+        "Resim Yapmak"
+      ],
+      "booksread": [
+        "Son Adanın Çocukları-Zülfi Livaneli",
+        "Pal Sokağı Çocukları-Ferenc Molnar"
+      ]
+    },
+    {
+      "id": "1669272735626",
+      "firstName": "Nalan",
+      "lastName": "Pekuysal",
+      "gender": "Kız",
+      "number": "1017",
+      "school": "React-Redux İlköğretim Okulu",
+      "class": "5/B",
+      "hobbys": [
+        "Yüzmek",
+        "Bisiklet Kullanmak",
+        "Tenis Oynamak",
+        "Resim Yapmak",
+        "Kitap Okumak",
+        "Fotoğrafçılık",
+        "Seyahat Etmek"
+      ],
+      "booksread": [
+        "Beyaz Diş-Jack London",
+        "Son Adanın Çocukları-Zülfi Livaneli"
+      ]
+    },
+    {
+      "id": "1669275630159",
+      "firstName": "Ayten",
+      "lastName": "Canlı",
+      "gender": "Kız",
+      "number": "1013",
+      "school": "React-Redux İlköğretim Okulu",
+      "class": "5/B",
+      "hobbys": [
+        "Kitap Okumak",
+        "Seyahat Etmek",
+        "Yüzmek"
+      ],
+      "booksread": [
+        "Troya Masalı-Azra Erhat",
+        "Alice Harikalar Diyarında-Lewis Carrol"
+      ]
+    },
+    {
+      "id": "1669275964236",
+      "firstName": "Enes",
+      "lastName": "Atik",
+      "gender": "Erkek",
+      "number": "1015",
+      "school": "React-Redux İlköğretim Okulu",
+      "class": "5/B",
+      "hobbys": [
+        "Satranç Oynamak",
+        "Yüzmek",
+        "Fotoğrafçılık",
+        "Bisiklet Kullanmak"
+      ],
+      "booksread": [
+        "Alice Harikalar Diyarında-Lewis Carrol",
+        "Beyaz Diş-Jack London"
+      ]
+    },
+    {
+      "id": "1669276302608",
+      "firstName": "Özge meryem",
+      "lastName": "Öztürk",
+      "gender": "Kız",
+      "number": "1020",
+      "school": "React-Redux İlköğretim Okulu",
+      "class": "5/B",
+      "hobbys": [
+        "Kitap Okumak",
+        "Resim Yapmak",
+        "Fotoğrafçılık"
+      ],
+      "booksread": [
+        "80 Günde Devri Alem-Jules Verne",
+        "Beyaz Diş-Jack London",
+        "Son Adanın Çocukları-Zülfi Livaneli"
+      ]
     }
   ],
   "hobby_list": [

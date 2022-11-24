@@ -11,6 +11,8 @@ import Loading from "./components/Loading";
 import AddStudent from "./pages/AddStudent";
 import SelectedStudent from "./pages/SelectedStudent";
 import actionTypes from "./redux/actions/actionTypes";
+import Statistics from "./pages/Statistics";
+import EditStudent from "./pages/EditStudent";
 
 
 function App() {
@@ -38,9 +40,6 @@ if(studentsState.fail === true){
   return <Error />
 }
 
-
-
-
   return (      
     <BrowserRouter>
       <Routes>      
@@ -48,6 +47,8 @@ if(studentsState.fail === true){
       <Route path="/add-student" element={<AddStudent/>} />
       <Route path="/error" element={<Error/>}/>
       <Route path="/selectedstudent/:studentId" element={<SelectedStudent/>}/>
+      <Route path="/statistics" element={<Statistics/>}/>
+      <Route path="/editstudent/:studentId" element={<EditStudent/>}/>
       </Routes>
     </BrowserRouter>
   );

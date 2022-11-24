@@ -78,17 +78,22 @@ const AddStudent = () => {
 
     const handleChangeHobbys = (event => {
         if(event.target.checked){
-          setHobbys([...hobbys,event.target.value])
+          
+           setHobbys([...hobbys,event.target.value])
+                    
         }else{
-        setHobbys(hobbys.filter((e)=>e !==event.target.value))
+           setHobbys([hobbys.filter((event)=>event !==event.target.value)])
+           console.log(hobbys)
         }
     })
 
     const handleChangeBooks = (event => {
         if(event.target.checked){
-         setBooksRead([...booksRead,event.target.value])
+                 
+          setBooksRead([...booksRead,event.target.value])
+                 
         }else{
-        setBooksRead(booksRead.filter((e)=>e !==event.target.value))    
+            
         }
     })
 
@@ -305,7 +310,7 @@ const AddStudent = () => {
                     </div>
 
                     <div className="d-flex justify-content-center mt-5">
-                        <button type="submit" className="btn btn-primary w-100">Kaydet</button>
+                        <button type="submit" className="btn btn-primary w-50">Kaydet</button>
                     </div>
 
                 </form>

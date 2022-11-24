@@ -13,15 +13,14 @@ const Header = () => {
     
 
     return (
-        <nav className="navbar navbar-expand-md navbar-dark bg-primary">
+        <nav className="navbar navbar-expand-md navbar-dark bg-primary header1">
             <div className="container-fluid">
                 <div className="">
-                    <ul className="navbar-nav">
-                        <li className="nav-item">
-                            <Link to="/" className="ogrenci_listesi nav-link active">Öğrenci Listesi </Link>
-                        </li>
-                    </ul>
-                </div>
+                    <Link to="/" className="ogrenci_listesi nav-link active">Home Page</Link>
+                    <Link to="/statistics" className="ogrenci_listesi nav-link active">İstatistikler</Link>
+                   
+                    
+                 </div>
                 <div className="navbar-brand">
                     <h2> Öğrenci Kayıt Sistemi </h2>
                 </div>

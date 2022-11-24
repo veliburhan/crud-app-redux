@@ -1,6 +1,7 @@
 import React,{useState} from "react";
 import { useSelector } from "react-redux";
 import {Link} from "react-router-dom"
+import "../assets/css/Navbar-style.css";
 
 
 const ListStudents = () => {
@@ -8,11 +9,9 @@ const ListStudents = () => {
     
     
     return (
+        
         <div className="container my-2">
-            <div className="d-flex justify-content-end">
-            <Link to="/add-student" className="btn btn-primary">Öğrenci Ekle</Link>
-            </div>
-            
+                        
         <table className="table table-striped">
             <thead>
                 <tr>
@@ -25,7 +24,7 @@ const ListStudents = () => {
                     <th >Sınıfı</th>
                     <th >Hobileri</th>
                     <th >Okuduğu Kitaplar</th>
-                    <th >İşlemler</th>
+                    <th className="thOgrenciEkle "><Link to="/add-student" className="btn btn-primary">Yeni Kayıt</Link></th>
                 </tr>
             </thead>
             <tbody>
@@ -42,7 +41,7 @@ const ListStudents = () => {
                     <td>{student.class}</td>
                     <td>{student.hobbys.toString()}</td>
                     <td>{student.booksread.toString()}</td>
-                    <td><Link to={`/selectedstudent/${student.id}`}>Select</Link></td>
+                    <td><Link to={`/selectedstudent/${student.id}`}><button className="btn btn-sm btn-info">Select</button></Link></td>
                 </tr>
                 ))
                 }                            
