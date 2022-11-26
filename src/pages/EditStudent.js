@@ -5,6 +5,7 @@ import axios from "axios";
 import Loading from "../components/Loading";
 import Footer from "../components/Footer";
 import backimage from "../assets/image/back2.jpg";
+import "../assets/css/Navbar-style.css";
 
 
 const EditStudent=()=>{
@@ -97,6 +98,24 @@ const EditStudent=()=>{
         }
     });
 
+    const handleSubmit=(event)=>{
+        event.preventDefault();
+
+        //Gerekli olan bütün kutucukların doldurulup doldurulmadığı kontro ediliyor:
+         if(!number || !firstName || !lastName || !school){
+            alert("* ile işaretli alanlar boş geçilemez.")
+            return
+        }
+
+        const filteredStudent=
+
+        
+
+    }
+
+
+    
+
     if(student===null){
         return <Loading />    
     }
@@ -120,13 +139,14 @@ const EditStudent=()=>{
                             
                             htmlFor="number"
                             className="form-label">
-                            Öğrenci Numarası</label>
+                            Öğrenci Numarası</label><span className="red"> *</span>
                         <input
                             value={number}
                             onChange={(event)=>setNumber(event.target.value)}
                             type="number"
                             className="form-control"
                             id="number"
+                            required
                         />
                     </div>
 
@@ -134,13 +154,14 @@ const EditStudent=()=>{
                         <label
                             htmlFor="firstName"
                             className="form-label">
-                            Adı</label>
+                            Adı</label><span className="red"> *</span>
                         <input
                             value={firstName}
                             onChange={(event)=>setFirstName(event.target.value)}
                             type="text"
                             class="form-control"
                             id="firstName"
+                            required
                         />
                     </div>
 
@@ -148,17 +169,18 @@ const EditStudent=()=>{
                         <label
                             htmlFor="lastName"
                             class="form-label">
-                            Soyadı</label>
+                            Soyadı</label><span className="red"> *</span>
                         <input
                             value={lastName}
                             onChange={(event)=>setLastName(event.target.value)}
                             type="text"
                             class="form-control"
                             id="lastName"
+                            required
                         />
                     </div>
 
-                    <label>Cinsiyet</label>
+                    <label>Cinsiyet</label><span className="red"> *</span>
                     <div className="mb-3 mt-2 border gender">
                         <div className="form-check form-check-inline">
                             <input class="form-check-input ms-1 mt-2" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked={gender === 'Kız'} value="Kız" onClick={() => setGender('Kız')}  />
@@ -179,20 +201,21 @@ const EditStudent=()=>{
                         <label
                             htmlFor="school"
                             class="form-label">
-                            Okulu</label>
+                            Okulu</label><span className="red"> *</span>
                         <input
                            value={school}
                            onChange={(event)=>setSchool(event.target.value)}
                             type="text"
                             class="form-control"
                             id="school"
+                            required
                         />
                     </div>
                     
                     <div>
                         <label htmlFor="class1" className="form-label">
                             Sınıfı
-                        </label>
+                        </label><span className="red"> *</span>
                         <select className="select2 form-control" id="class1" value={stdClass} onChange={(event) => setStdClass(event.target.value)}>
                         {
                          classList.map(item => {
@@ -320,7 +343,7 @@ const EditStudent=()=>{
                     </div>
 
                     <div className="d-flex justify-content-center mt-5">
-                        <button type="submit" className="btn btn-primary w-100 mb-4">Güncelle</button>
+                        <button type="submit" onClick={handleSubmit} className="btn btn-primary w-100 mb-4">Güncelle</button>
                     </div>
 
                 </form>
@@ -334,4 +357,4 @@ const EditStudent=()=>{
     )
 }
 
-export default EditStudent
+export default EditStudent;
