@@ -1,6 +1,5 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import { Link } from "react-router-dom";
 
 
 import "../assets/css/Navbar-style.css"
@@ -8,8 +7,7 @@ import "../assets/css/Navbar-style.css"
 const Footer = () => {
     const studentsState = useSelector(state => state.studentsState)
 
-    const girlstudent=studentsState.students.filter(student => student.gender === "Kız" )
-    const boystudent=studentsState.students.filter(student => student.gender === "Erkek")
+   
     
 
     return (
