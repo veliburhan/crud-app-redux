@@ -17,14 +17,13 @@ const ListStudents = () => {
                 <tr className="position-relative">
                     <th >Sıra No</th>
                     <th style={{ width:"50px" }}>Öğr. No</th>
-                    <th >Adı Soyadı</th>
-                    
+                    <th style={{ width:"250px" }}>Adı Soyadı</th>
                     <th >Cinsiyet</th>
                     <th >Okulu</th>
                     <th >Sınıfı</th>
                     <th >Hobileri</th>
-                    <th >Okuduğu Kitaplar</th>
-                    <th className="thOgrenciEkle "><Link to="/add-student" className="btn btn-primary">Yeni Kayıt</Link></th>
+                    <th >Okuduğu Kitaplar </th>
+                    
                 </tr>
             </thead>
             <tbody>

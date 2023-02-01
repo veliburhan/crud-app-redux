@@ -16,8 +16,8 @@ const Header = () => {
         <nav className="navbar navbar-expand-md navbar-dark bg-primary header1">
             <div className="container-fluid">
                 <div className="">
-                    <Link to="/" className="ogrenci_listesi nav-link active">Home Page</Link>
-                    <Link to="/statistics" className="ogrenci_listesi nav-link active">İstatistikler</Link>
+                    <Link to="/" className="btn btn-primary">Home Page</Link>
+                    
                    
                     
                  </div>
@@ -25,12 +25,8 @@ const Header = () => {
                     <h2> Öğrenci Kayıt Sistemi </h2>
                 </div>
                 <div className="istatistik">
-                    
-                    <h5 className="istatistik"> Kız Öğrenci Sayısı: {girlstudent.length} </h5>
-                    <h5 className="istatistik"> Erkek Öğrenci Sayısı: {boystudent.length} </h5>
-                    <h5 className="istatistik"> Toplam Öğrenci Sayısı: {studentsState.students.length} </h5>
-
-                
+                <Link to="/statistics" className="nav-link active btn btn-primary">Gelişmiş</Link>
+                <Link to="/add-student" className="btn btn-primary thOgrenciEkle mt-2">Yeni Kayıt</Link>                                   
                 </div>
             </div>
         </nav>

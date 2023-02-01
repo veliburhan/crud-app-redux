@@ -304,6 +304,91 @@
         "Beyaz Diş-Jack London",
         "Son Adanın Çocukları-Zülfi Livaneli"
       ]
+    },
+    {
+      "id": "1669450764041",
+      "firstName": "Nursel yade",
+      "lastName": "Güldüren",
+      "gender": "Kız",
+      "number": "1021",
+      "school": "React-Redux İlköğretim Okulu",
+      "class": "5/A",
+      "hobbys": [
+        "Resim Yapmak",
+        "Tenis Oynamak",
+        "Yüzmek"
+      ],
+      "booksread": [
+        "Çizgili Pijamalı Çocuk-John Boyne",
+        "Troya Masalı-Azra Erhat",
+        "Alice Harikalar Diyarında-Lewis Carrol"
+      ]
+    },
+    {
+      "id": "1669457556539",
+      "firstName": "Ceyda",
+      "lastName": "Hasanlar",
+      "gender": "Kız",
+      "number": "1023",
+      "school": "React-Redux İlköğretim Okulu",
+      "class": "4/A",
+      "hobbys": [
+        "Fotoğrafçılık"
+      ],
+      "booksread": [
+        "Çizgili Pijamalı Çocuk-John Boyne",
+        "Beyaz Diş-Jack London"
+      ]
+    },
+    {
+      "id": "1669459214199",
+      "firstName": "Meltem Nur",
+      "lastName": "Bilgili",
+      "gender": "Kız",
+      "number": "1075",
+      "school": "React-Redux İlköğretim Okulu",
+      "class": "5/A",
+      "hobbys": [
+        "Kitap Okumak",
+        "Resim Yapmak"
+      ],
+      "booksread": [
+        "Sefiller-Victor Hugo",
+        "80 Günde Devri Alem-Jules Verne"
+      ]
+    },
+    {
+      "id": "1669459362132",
+      "firstName": "Irfan Sami̇ Orhan",
+      "lastName": "Ayan Kara",
+      "gender": "Erkek",
+      "number": "1029",
+      "school": "React-Redux İlköğretim Okulu",
+      "class": "4/B",
+      "hobbys": [
+        "Fotoğrafçılık",
+        "Seyahat Etmek"
+      ],
+      "booksread": [
+        "Beyaz Diş-Jack London",
+        "Troya Masalı-Azra Erhat"
+      ]
+    },
+    {
+      "id": "1669460029730",
+      "firstName": "Mehmet Ali",
+      "lastName": "Candan Aydin",
+      "gender": "Erkek",
+      "number": "1089",
+      "school": "React-Redux İlköğretim Okulu",
+      "class": "5/B",
+      "hobbys": [
+        "Resim Yapmak"
+      ],
+      "booksread": [
+        "Alice Harikalar Diyarında-Lewis Carrol",
+        "Troya Masalı-Azra Erhat"
+      ]
     }
   ],
   "hobby_list": [

@@ -32,10 +32,28 @@ const AddStudent = () => {
         .catch(error=>{console.log(error)})
     
     },[classList])
-        
+
     
+        
     const editText=(text)=> {
-    return text[0].toUpperCase() + text.substring(1).toLowerCase() 
+        var textArray = text.split(" ");
+        
+        if(textArray.length === 1){
+            return text[0].toUpperCase() + text.substring(1).toLowerCase()
+        }
+        if(textArray.length === 2){
+          
+            var t1 = textArray[0][0].toUpperCase() + textArray[0].substring(1).toLowerCase() 
+            var t2 = textArray[1][0].toUpperCase() + textArray[1].substring(1).toLowerCase() 
+            return t1.concat(" ",t2)
+        }   
+        if(textArray.length === 3){
+          
+            var t1 = textArray[0][0].toUpperCase() + textArray[0].substring(1).toLowerCase() 
+            var t2 = textArray[1][0].toUpperCase() + textArray[1].substring(1).toLowerCase() 
+            var t3 = textArray[2][0].toUpperCase() + textArray[2].substring(1).toLowerCase()
+            return t1.concat(" ",t2).concat(" ",t3)
+        }    
     }
                
 
@@ -60,7 +78,7 @@ const AddStudent = () => {
             id: String(new Date().getTime()),
             firstName:editText(firstName),
             lastName: editText(lastName),
-            gender: editText(gender),
+            gender: gender,
             number: number,
             school: school,
             class: stdClass.toUpperCase(),
