@@ -107,9 +107,7 @@ const EditStudent=()=>{
             return
         }
 
-        const filteredStudent=
-
-        
+        console.log("handle")
 
     }
 
