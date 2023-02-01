@@ -22,7 +22,7 @@ const Header = () => {
                     
                  </div>
                 <div className="navbar-brand">
-                    <h2> Öğrenci Kayıt Sistemi </h2>
+                    <h2> Öğrenci Kayıt Sistemi-2 </h2>
                 </div>
                 <div className="istatistik">
                 <Link to="/statistics" className="nav-link active btn btn-primary">Gelişmiş</Link>

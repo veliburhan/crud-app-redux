@@ -15,7 +15,7 @@ const ListStudents = () => {
         <table className="table table-striped table-hover">
             <thead>
                 <tr className="position-relative">
-                    <th >Sıra No</th>
+                    <th >S. No</th>
                     <th style={{ width:"50px" }}>Öğr. No</th>
                     <th style={{ width:"250px" }}>Adı Soyadı</th>
                     <th >Cinsiyet</th>
