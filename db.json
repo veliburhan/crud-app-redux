@@ -389,6 +389,25 @@
         "Alice Harikalar Diyarında-Lewis Carrol",
         "Troya Masalı-Azra Erhat"
       ]
+    },
+    {
+      "id": "1675257699891",
+      "firstName": "Aydın Cem",
+      "lastName": "Kocatürk",
+      "gender": "Erkek",
+      "number": "111",
+      "school": "React-Redux İlköğretim Okulu",
+      "class": "3/A",
+      "hobbys": [
+        "Seyahat Etmek",
+        "Fotoğrafçılık",
+        "Tenis Oynamak"
+      ],
+      "booksread": [
+        "Troya Masalı-Azra Erhat",
+        "Çizgili Pijamalı Çocuk-John Boyne",
+        "Sefiller-Victor Hugo"
+      ]
     }
   ],
   "hobby_list": [

@@ -16,13 +16,13 @@ const ListStudents = () => {
             <thead>
                 <tr className="position-relative">
                     <th >S. No</th>
-                    <th style={{ width:"50px" }}>Öğr. No</th>
-                    <th style={{ width:"250px" }}>Adı Soyadı</th>
+                    <th style={{ width:"100px" }}>Öğr. No</th>
+                    <th style={{ width:"350px" }}>Adı Soyadı</th>
                     <th >Cinsiyet</th>
                     <th >Okulu</th>
                     <th >Sınıfı</th>
-                    <th >Hobileri</th>
-                    <th >Okuduğu Kitaplar </th>
+                    <th >Hobi Sayısı</th>
+                    <th >Okuduğu Kitap Sayısı </th>
                     
                 </tr>
             </thead>
@@ -37,8 +37,8 @@ const ListStudents = () => {
                     <td>{student.gender}</td>
                     <td>{student.school}</td>
                     <td>{student.class}</td>
-                    <td>{student.hobbys.toString()}</td>
-                    <td>{student.booksread.toString()}</td>
+                    <td>{(student.hobbys).length}</td>
+                    <td>{(student.booksread).length}</td>
                    
                 </tr>
                 ))
