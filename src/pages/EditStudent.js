@@ -107,8 +107,12 @@ const EditStudent=()=>{
             return
         }
 
+<<<<<<< HEAD
         
        
+=======
+        console.log("handle")
+>>>>>>> 354d26dc73cb25b168db005d545e3a73aa0757f1
 
     }
 
