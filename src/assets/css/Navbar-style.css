@@ -115,3 +115,12 @@
     margin-top: 108px;
     margin-left:30px;
 }
+
+.red{
+    color:red;
+}
+
+.link{
+    color:black;
+    text-decoration: none;
+}

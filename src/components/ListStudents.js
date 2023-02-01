@@ -12,13 +12,13 @@ const ListStudents = () => {
         
         <div className="container my-2">
                         
-        <table className="table table-striped">
+        <table className="table table-striped table-hover">
             <thead>
-                <tr>
+                <tr className="position-relative">
                     <th >Sıra No</th>
                     <th style={{ width:"50px" }}>Öğr. No</th>
-                    <th >Adı</th>
-                    <th >Soyadı</th>
+                    <th >Adı Soyadı</th>
+                    
                     <th >Cinsiyet</th>
                     <th >Okulu</th>
                     <th >Sınıfı</th>
@@ -31,17 +31,16 @@ const ListStudents = () => {
                 {
                 studentsState.students.map((student,index)=>  (
                     
-                <tr key={student.id}>
+                <tr key={student.id} className="position-relative">
                     <td>{index+1}</td>
                     <td>{student.number}</td>
-                    <td>{student.firstName}</td>
-                    <td>{student.lastName}</td>
+                    <td><Link className="link stretched-link" to={`/selectedstudent/${student.id}`}>{student.firstName +" " + student.lastName}</Link></td>
                     <td>{student.gender}</td>
                     <td>{student.school}</td>
                     <td>{student.class}</td>
                     <td>{student.hobbys.toString()}</td>
                     <td>{student.booksread.toString()}</td>
-                    <td><Link to={`/selectedstudent/${student.id}`}><button className="btn btn-sm btn-info">Select</button></Link></td>
+                   
                 </tr>
                 ))
                 }                            
