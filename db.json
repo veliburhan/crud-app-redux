@@ -408,6 +408,23 @@
         "Çizgili Pijamalı Çocuk-John Boyne",
         "Sefiller-Victor Hugo"
       ]
+    },
+    {
+      "id": "1675416507673",
+      "firstName": "Mustafa Hulusi",
+      "lastName": "Gençoğlu",
+      "gender": "Erkek",
+      "number": "150",
+      "school": "React-Redux İlköğretim Okulu",
+      "class": "2/A",
+      "hobbys": [
+        "Bisiklet Kullanmak",
+        "Yüzmek"
+      ],
+      "booksread": [
+        "Alice Harikalar Diyarında-Lewis Carrol",
+        "Pal Sokağı Çocukları-Ferenc Molnar"
+      ]
     }
   ],
   "hobby_list": [
